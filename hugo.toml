@@ -1,0 +1,176 @@
+# Page settings
+
+baseURL = "https://www.neko-room.com/"
+defaultContentLanguage = "en"
+title = "Katsunori Kuroda"
+theme = "devresume"
+
+[languages]
+    [languages.en]
+        locale = "en-US"
+
+[params]
+    author = "kurotch321"
+    description = "Katsunori Kuroda's Resume"
+    primaryColor = "#3a0849"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Katsunori Kuroda"
+        tagline = "Software Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Greater Tokyo Area, Japan"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:work@neko-room.com"
+        text = "work@neko-room.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.neko-room.com/"
+        text = "www.neko-room.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Development"
+        [[params.skills.list.items]]
+        details = "JavaScript/TypeScript"
+        [[params.skills.list.items]]
+        details = "Node.js/Next.js/React/Vue"
+        [[params.skills.list.items]]
+        details = "PHP/Kotlin/Java"
+        [[params.skills.list.items]]
+        details = "GAS/Lua/Python"
+        [[params.skills.list.items]]
+        details = "HTML/CSS/Sass"
+        [[params.skills.list.items]]
+        details = "Laravel/WordPress"
+
+        [[params.skills.list]]
+        title = "Infrastructure"
+        [[params.skills.list.items]]
+        details = "AWS/Google Cloud/Azure"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes"
+        [[params.skills.list.items]]
+        details = "Terraform/Ansible"
+
+        [[params.skills.list]]
+        title = "Tools"
+        [[params.skills.list.items]]
+        details = "Git/Jira/Slack"
+        [[params.skills.list.items]]
+        details = "Visual Studio/VS Code"
+        [[params.skills.list.items]]
+        details = "IntelliJ IDEA/Android Studio"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Faculty of Environment and Information Studies"
+        university = "Keio University"
+        dates = "2026.4 - 2030.3"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "MITOU Junior Outstanding Performance Award"
+        body = "MITOU Foundation"
+        date = "2024"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Security"
+        [[params.interests.list]]
+        name = "Medical AI"
+        [[params.interests.list]]
+        name = "Programming Education"
+        [[params.interests.list]]
+        name = "Network Infrastructure"
+        [[params.interests.list]]
+        name = "DevOps"
+
+    [params.summary]
+        enable = true
+        text = "I'm working on digital transformation and innovation for the Marubeni Group as a Software Engineering Intern at Digital Experts Inc."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer (Internship)"
+        dates = "2026.02 - Present"
+        company = "Digital Experts Inc."
+        details = "Working on digital transformation and innovation for the Marubeni Group."
+        [[params.experience.list]]
+        title = "Chief Information Officer"
+        dates = "2025.09 - 2025.12"
+        company = "Confidential Company"
+        [[params.experience.list]]
+        title = "IT Admin"
+        dates = "2025.05 - 2025.12"
+        company = "Confidential Company"
+        details = "Concurrently with the Software Engineer role, co-launched the IT team, introduced new products, managed and operated internal systems, and oversaw company-issued PCs."
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2024.11 - 2025.12"
+        company = "Confidential Company"
+        details = "Joined a Tokyo-based contract development startup from its founding, working on system development for client projects, coordinating with customers, and developing internal systems in-house."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Vote-matching system for the student council election"
+        meta = "Vote-matching system development team | 2025.04 - 2025.10"
+        tagline = "At N High School Group - the largest online high school in Japan - I worked with a team to develop and operate a vote-matching system. The project was funded by the student council through a grant-based initiative to address the challenge that the large number of candidates made it difficult for students to review every profile before voting."
+
+        [[params.projects.list]]
+        title = "WP-based Single Sign-On System for High School Students"
+        meta = "Knowledge base Executive Committee | 2024.12 - 2026.03"
+        tagline = "I developed a identity and access management system with single sign-on (SSO) functionality for high school students using WordPress. The system was designed to provide a seamless login experience across multiple WordPress sites used for different purposes, such as knowledgebases, school festival information, and sandbox environments for editors. It was implemented using WordPress Plugins and operated at N High School Group, the largest online high school in Japan, until the number of WordPress sites in use decreased and the system was retired."
+
+        [[params.projects.list]]
+        title = "AI study"
+        meta = "AI study Team | 2023.12 - Present"
+        tagline = "AI study is a learning service designed to help students consolidate their English vocabulary through fill-in-the-blank questions generated by LLM, accompanied by detailed explanations for each question. It was selected for the MITOU Junior 2024, an initiative aimed at fostering young tech creators in Japan."
+
+        [[params.projects.list]]
+        title = "Entrance and Exit Management System"
+        meta = "Individual Project | 2023.11"
+        tagline = "I developed this web-based application to study Laravel. Guests can enter their name and contact information from the link in the invitation email they received before coming to the event, so that they can be identified smoothly by simply holding up the QR code at the venue, and administrators can easily check who was invited and who entered and left at what time and minute."
+
+        [[params.projects.list]]
+        title = "WordPress Plugin Release Management Tool"
+        meta = "Individual Project | 2023.06"
+        tagline = "Simplify the release flow for WordPress plugins used only in specific environments. Incorporates a code owner approval flow using a Slack Bot for use with private repositories on free plans where branch protection cannot be enforced."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/kurotch321"
+        title = "kurotch321"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/katsunorikuroda"
+        title = "katsunorikuroda"
